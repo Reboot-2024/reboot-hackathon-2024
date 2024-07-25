@@ -16,7 +16,7 @@ load_dotenv()
 genai.configure(api_key='AIzaSyBuinM21k9mshd-YQy7y_eHinclhDry-PY')
 
 # Set the Tesseract OCR path
-pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path as necessary
+# pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  # Update this path as necessary
 
 # User Define Functions
 def get_gemini_response(input):
