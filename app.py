@@ -101,7 +101,7 @@ def extract_text_from_file(uploaded_file):
 
 input_prompt_2 = """
 You are an HR executive of a company and your role is to match the candidates resumes to the Job Description provided.
-You need to look for the skills needed in the Job Description and judge if the specific resume is a good match and determine the percentage of match.
+You need to look at both resume and job description, use techniques like TF-IDF or word embeddings to give a standard score so that it will be constant for a resume and job description.
 Recent role should be the last working role in the experience section.
 Total Experience should be the sum of all the periods working for a company in experience section.
 In experience section there might be more than one company so consider all the individual companies as work experience and sum all of them and make sure to specify exact number.
