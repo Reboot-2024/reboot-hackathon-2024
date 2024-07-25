@@ -6,3 +6,5 @@ PyPDF2
 python-docx
 python-dotenv
 docx2txt
+pytessaract
+pypdfium2
