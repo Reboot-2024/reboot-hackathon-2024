@@ -136,7 +136,7 @@ col3, col4 = st.columns([1.5, 4])
 image = col3.image("images.png", width=200)
 col4.write('<h1 style="color: green;margin-top:5px;">Reboot @ Lloyds Technology Center</h1>', unsafe_allow_html=True)
 
-st.write('<h1 style="color: black; width: 10000px;padding:0px;">Resume Scanner</h1>', unsafe_allow_html=True)
+st.write('<h1 style="color: black; width: 10000px;padding:0px;">Resume Screener</h1>', unsafe_allow_html=True)
 
 col1, col2 = st.columns([2.8, 1])
 
